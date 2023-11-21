@@ -1,0 +1,6 @@
+wiremock:
+  server:
+    files: classpath:/static/
+    stubs: classpath:/static/**/*.json
+    port: 8090
+    https-port: 8989
